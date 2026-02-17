@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>School Management System</title>
+  <title>ANGOVNABLE School Management System</title>
 
-  <!-- React & ReactDOM CDN -->
+  <!-- React & ReactDOM -->
   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 
@@ -19,10 +19,10 @@
 <body>
   <div id="root"></div>
 
-  <!-- Your JSX file -->
-  <script type="text/babel" src="school-management-system.jsx"></script>
+  <!-- Load your JSX file via Babel -->
+  <script type="text/babel" src="App.jsx"></script>
 
-  <!-- Service Worker registration -->
+  <!-- Register Service Worker -->
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('sw.js')
